@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace FacadeDesignPattern
 {
-    class Program
+   public class Loan
     {
-        static void Main(string[] args)
+        public bool HasNoBadLoan(Student stu)
         {
+            Console.WriteLine("Verify Loan for :" + stu.Name);
+            return true;
         }
     }
 }
